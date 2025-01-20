@@ -1,0 +1,60 @@
+
+.DS_Store
+
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.lock
+build/
+DerivedData/
+.idea/
+
+# Temporary or Swap Files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+*.xccheckout
+*.xcscmblueprint
+
+# Frameworks and Libraries
+Carthage/Build/
+Carthage/Checkouts/
+Pods/
+*.dSYM
+
+# Build Artifacts
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.ipa
+*.app
+*.xcarchive
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Cocoapods
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# VisionOS-specific
+*.metallib
+*.usd
+
+# Testing Artifacts
+test-output/
